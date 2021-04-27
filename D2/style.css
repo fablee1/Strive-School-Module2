@@ -9,9 +9,30 @@
             - The album duration
             - etc
 */
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+}
+
 h1 {
     text-align: center;
-    margin-top: 5%;
 }
 
 .cover-img {
@@ -22,16 +43,31 @@ h1 {
     font-size: 1em;
 }
 
-#review {
-    font-size: 1vw;
+#review h5 {
+    font-size: 2rem;
+}
+
+#review p {
+    font-size: 1.1rem;
+}
+
+#review li {
+    font-size: 1.05rem;
+    padding: 5%;
 }
 
 .tracklist {
-    font-size: 70%;
-    padding: 0.7em;
     border-color: aliceblue;
+    list-style-type: none;
+    border-bottom: 1px solid white;
 }
 
-.carousel-inner img {
-    height: 50%;
+.carousel-item img {
+    width: auto !important;
+    height: 400px;
+    max-height: 400px;
+}
+
+.card-title {
+    font-size: 0.8rem;
 }
