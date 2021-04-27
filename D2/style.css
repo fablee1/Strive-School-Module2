@@ -9,6 +9,10 @@
             - The album duration
             - etc
 */
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
 
 .cover-img {
     width: 100%;
@@ -23,6 +27,7 @@
 }
 
 .tracklist {
+    font-size: 70%;
     padding: 0.7em;
     border-color: aliceblue;
 }
