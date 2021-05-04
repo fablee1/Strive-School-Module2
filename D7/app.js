@@ -113,4 +113,13 @@ window.onload = function() {
 
     const buttonOlder = document.querySelectorAll('.blog-pagination > a')[0]
     buttonOlder.addEventListener('click', older)
+
+    // EX20
+    const authors = document.querySelectorAll('.blog-post-meta > a')
+    console.log(authors)
+    for(author of authors) {
+        author.addEventListener('mouseover', function(e) {
+            alert(e.currentTarget.innerText)
+        })
+    }
 }
