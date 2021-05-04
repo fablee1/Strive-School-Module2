@@ -100,8 +100,8 @@ const newer = function(e, title, text) {
 
 // EX19
 const older = function(e) {
-    const oldestPost = document.querySelectorAll('.blog-post')[-1]
-    oldestPost.remove()
+    const posts = document.querySelectorAll('.blog-post')
+    posts[posts.length-1].remove()
 }
 
 
