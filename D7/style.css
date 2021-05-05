@@ -47,7 +47,7 @@ aside div:nth-child(2) li {
 }
 
 /* EX8 */
-.blog-post:nth-of-type(2) .blog-post-meta a {
+.blog-post-meta:nth-child(2) a {
     background-color: saddlebrown;
     color: white;
 }
